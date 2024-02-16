@@ -1,0 +1,5 @@
+pulse.css
+- [ ] hight/width via js berechnen!
+- [ ] centern vertikal
+
+- [ ] Einstellungen für todo highlight aus thinkpad übernehmen
