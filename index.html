@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GitHub page as PWA template</title>
-  <link rel="canonical" href="https://codepo8.github.io/github-page-pwa/" />
-  <link rel="manifest" href="/github-page-pwa/manifest.webmanifest">
+  <link rel="canonical" href="https://Closer2U.github.io/just-breathe/" />
+  <link rel="manifest" href="/just-breathe/manifest.webmanifest">
   <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="pwa-install.bundle.js"></script>
+  <script src="https://www.npmjs.com/package/@khmyznikov/pwa-install"></script>
 </head>
 <body>
  
@@ -14,15 +16,15 @@
   <p>
     This is a PWA template for GitHub pages. 
     Make sure to check the README at 
-    <a href="https://github.com/codepo8/github-page-pwa/">https://github.com/codepo8/github-page-pwa/</a> and 
+    <a href="https://github.com/Closer2U/just-breathe/">https://github.com/Closer2U/just-breathe/</a> and 
     to change the necessary settings to your needs.
   </p>
 
   <script>
       if (navigator.serviceWorker) {
         navigator.serviceWorker.register (
-          '/github-page-pwa/sw.js',
-          {scope: '/github-page-pwa/'}
+          '/just-breathe/sw.js',
+          {scope: '/just-breathe/'}
         )
       }
   </script>
