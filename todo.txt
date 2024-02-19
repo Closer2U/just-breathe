@@ -1,7 +1,8 @@
 pulse.css
 - [ ] hight/width via js berechnen!
-- [ ] centern vertikal
-- [ ] 6s --> 5 ein - 1 pause - 5 aus - 1 pause
+- [x] centern vertikal
+- [ ] Schrift horizontal zentrieren
+- [x] 6s --> 5 ein - 1 pause - 5 aus - 1 pause
 - [ ] auf mobil nicht scrollbar machen
 
 - [ ] Einstellungen für todo highlight aus thinkpad übernehmen
