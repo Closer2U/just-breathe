@@ -1,15 +1,15 @@
 {
-  "name": "Github Page PWA",
-  "short_name": "GPPWA",
+  "name": "Just Breathe",
+  "short_name": "PWA",
   "description": "Github Page as a Progressive Web App",
-  "scope": "/github-page-pwa/",
-  "start_url": "/github-page-pwa/",
+  "scope": "/just-breathe/",
+  "start_url": "/just-breathe/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "display": "standalone", 
   "icons": [
       {
-        "src": "/github-page-pwa/img/icon.png",
+        "src": "/just-breathe/img/icon.png",
         "type": "image/png",
         "sizes": "700x700"
       }
