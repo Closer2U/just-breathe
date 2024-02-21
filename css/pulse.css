@@ -20,7 +20,7 @@ body, html {
   
   .pulse-button {
     display: flex;
-    position:relative;
+    justify-content: center;
     align-items: center;
     width: calc(98vh/2);/*TODO muss via js berechnen*/ 
     height: calc(98vh/2);
