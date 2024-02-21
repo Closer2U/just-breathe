@@ -1,5 +1,3 @@
-import "https://unpkg.com/pwa-install@0.0.4"; 
-
 console.log('I am running!');
 
 function start(){
