@@ -1,3 +1,5 @@
+import "https://unpkg.com/pwa-install@0.0.4"; 
+
 console.log('I am running!');
 
 function start(){
@@ -9,6 +11,9 @@ function start(){
     //timer funktion aufrufen
 
 }
+
+
+
 
 //timer Logik  hier ()
 

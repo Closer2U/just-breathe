@@ -8,8 +8,10 @@
   <link rel="manifest" href="/just-breathe/manifest.webmanifest">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/pulse.css">
-  <script type="module" src="pwa-install.bundle.js"></script>
-  <script src="https://unpkg.com/pwa-install@0.0.4/dist/pwa-install/pwa-install.js"></script>
+  <script
+  type="module"
+  src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"
+></script>
 </head>
 <body>
 
@@ -20,6 +22,26 @@
   </div>
   <div id="Timer">Timer</div>
 
+  <button id="install" hidden>Install</button>
+
+  <script>
+	window.addEventListener('beforeinstallprompt', function(e) {
+    // beforeinstallprompt Event fired
+    console.log('beforeinstallprompt Event fired');
+    // e.userChoice will return a Promise.
+    // For more details read: https://developers.google.com/web/fundamentals/getting-started/primers/promises
+        e.userChoice.then(function(choiceResult) {
+            console.log(choiceResult.outcome);
+            if(choiceResult.outcome == 'dismissed') {
+            console.log('User cancelled home screen install');
+            }
+            else {
+            console.log('User added to home screen');
+            }
+        });
+    });
+	
+	</script>
 
   <script>
       if (navigator.serviceWorker) {
@@ -33,9 +55,8 @@
 
 
 
-  <pwa-install id="pwa-install" manifest-url="manifest.json"></pwa-install>
-  <button onclick="pwaInstall.showDialog(true)">Show(forced)</button>
-  <pwa-install
+  <pwa-install onload="install();"
+  id="pwa-install"
   manual-apple="true"
   manual-chrome="true"
   disable-chrome="true"
@@ -50,6 +71,11 @@
   icon="/icon.png">
 </pwa-install>
 	
+<script type="text/javascript">
+	var pwaInstall = document.getElementsByTagName('pwa-install')[0];
+  
+	pwaInstall.addEventListener('pwa-install-success-event', (event) => {console.log(event.detail.message)});
+  </script>
 
 </body>
 </html>
