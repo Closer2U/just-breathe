@@ -7,10 +7,11 @@ pulse.css
 
 - [ ] Einstellungen für todo highlight aus thinkpad übernehmen
 
-- [ ] create timer
+- [x] create timer
 - [ ] timer stops --> restart
     - [ ] "START" reappears
-- [ ] timer hide after 2s , reappear on touch
+- [x] timer hide after 2s , 
+- [ ] reappear on touch
 
 - [ ] service worker fixen
 
