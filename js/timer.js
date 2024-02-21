@@ -46,6 +46,7 @@ function fadeTimer()  {
         }, 100);
     }
 
+/**
 display.onclick = function showTimer ()  {
         console.log("Display2: ")
         //TODO fix damit man den Timer wieder einblenden kann
@@ -60,3 +61,4 @@ display.onclick = function showTimer ()  {
             }
         }, 100);
     }
+**/
