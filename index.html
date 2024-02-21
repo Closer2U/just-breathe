@@ -14,9 +14,9 @@
 
   <div class='container'>
     <div class='pulse-button' id="Pulse" >
-		<button class="pulse-button" onclick="start();" id="Start">Start</button></div>
+		<button class="pulse-button" onclick="start();startTimer(duration, display);" id="Start">Start</button></div>
   </div>
-  <div id="Timer">Timer</div>
+  <div><span id="Timer">01:00</span> </div>
 
   <button id="install" hidden>Install</button>
 
@@ -48,6 +48,7 @@
       }
   </script>
   <script src="js/app.js"></script>
+  <script src="js/timer.js"></script>
 
 
 </body>

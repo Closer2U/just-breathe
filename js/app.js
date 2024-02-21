@@ -12,7 +12,6 @@ function start(){
 
 
 
-
 //timer Logik  hier ()
 
 //ende timer überwachen
