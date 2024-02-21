@@ -1,7 +1,7 @@
 pulse.css
 - [ ] hight/width via js berechnen!
 - [x] centern vertikal
-- [ ] Schrift horizontal zentrieren
+- [x] Schrift horizontal zentrieren
 - [x] 6s --> 5 ein - 1 pause - 5 aus - 1 pause
 - [ ] auf mobil nicht scrollbar machen
 

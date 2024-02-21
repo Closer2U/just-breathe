@@ -1,6 +1,6 @@
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
-    setInterval(function () {
+    var interval = setInterval(function () {
         minutes = parseInt(timer / 60, 10)
         seconds = parseInt(timer % 60, 10);
 
@@ -11,12 +11,19 @@ function startTimer(duration, display) {
 
         if (--timer < 0) {
             timer = duration;
+        
+
+        clearInterval(interval);
+
         }
     }, 1000);
+
 }
 
-window.onload = function () {
+window.onclick = function () {
     var oneMinute = 60,
         display = document.getElementById('Timer');
     startTimer(oneMinute, display);
+
+
 };
