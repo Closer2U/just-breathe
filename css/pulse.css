@@ -24,7 +24,7 @@ body, html {
     align-items: center;
     width: calc(98vh/2);/*TODO muss via js berechnen*/ 
     height: calc(98vh/2);
-    font-size: 1.3em;
+    font-size: calc(98vh/16);
     font-weight: light;
     font-family: 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
