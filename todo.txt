@@ -16,3 +16,6 @@ pulse.css
 - [ ] service worker fixen
 
 - [ ] zum Installieren aufrufen
+
+- [ ] README.md anpassen 
+- [ ] Ordnerstruktur fixen, Dateien löschen 
