@@ -1,7 +1,6 @@
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
-    //   clearInterval(interval);
-    var interval = setInterval(function () {
+    setInterval(function () {
         minutes = parseInt(timer / 60, 10)
         seconds = parseInt(timer % 60, 10);
 
@@ -9,24 +8,16 @@ function startTimer(duration, display) {
         seconds = seconds < 10 ? "0" + seconds : seconds;
 
         display.textContent = minutes + ":" + seconds;
-        
-        fadeTimer();
 
         if (--timer < 0) {
             timer = duration;
-
-    // Put all CSS back to First Iteration
-        clearInterval(interval);
-        document.getElementById("Pulse").style.animation = "";
-        document.getElementById("Start").style.display = "";
         }
     }, 1000);
 }
 
-window.onclick = function () {
-    display = document.getElementById('Timer');
-    var oneMinute = 60 ; //,
-   // display = document.getElementById('Timer');
+window.onload = function () {
+    var oneMinute = 60,
+        display = document.getElementById('Timer');
     startTimer(oneMinute, display);
 };
 
