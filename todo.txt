@@ -1,18 +1,19 @@
 pulse.css
-- [ ] hight/width via js berechnen!
+- [x] hight/width via js berechnen!
 - [x] centern vertikal
 - [x] Schrift horizontal zentrieren
 - [x] 6s --> 5 ein - 1 pause - 5 aus - 1 pause
-- [ ] auf mobil nicht scrollbar machen
+- [x] auf mobil nicht scrollbar machen
 
-- [ ] Einstellungen für todo highlight aus thinkpad übernehmen
+- [x] Einstellungen für todo highlight aus thinkpad übernehmen
 
 - [x] create timer
-- [ ] timer stops --> restart
-    - [ ] "START" reappears
+- [x] stop timer after 1 iteration (hat schon mal funktioniert...)
+- [x] timer stops --> restart
+    - [x] "START" reappears
 - [x] timer hide after 2s 
-- [ ] reappear on touch
-    - [ ] //idea via CSS animation lösen --> button über timer platzieren (display:none; visibility:hidden) und dann via js opacity animieren
+- [x] reappear on touch
+    - [x] //idea via CSS animation lösen --> button über timer platzieren (display:none; visibility:hidden) und dann via js opacity animieren
 
 - [ ] service worker fixen
 
