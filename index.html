@@ -8,19 +8,20 @@
   <link rel="manifest" href="/just-breathe/manifest.json">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/pulse.css">
+  <link rel="stylesheet" href="css/fade.css">
 </head>
-
+<body>
 
 
   <div class='container'>
     <div class='pulse-button' id="Pulse" >
 		<button class="pulse-button" onclick="start();startTimer(duration, display);" id="Start">Start</button></div>
   </div>
-  <input type="button" class="hide-timer-button"></input>
-  <div><span id="Timer">01:00</span> </div>
+  <input type="button" onclick="reappear();" class="hide-timer-button" id="fadeBtn"></input>
+  <div id="Timer">01:00</div>
+<div style="height:2%"></div>
 
-
-  <button id="install" hidden>Install</button>
+  <!-- <button id="install" hidden>Install</button> -->
 
   <script>
 	window.addEventListener('beforeinstallprompt', function(e) {
@@ -51,6 +52,7 @@
   </script>
   <script src="js/app.js"></script>
   <script src="js/timer.js"></script>
+  <script src="js/hideshow.js"></script>
 
 
 </body>

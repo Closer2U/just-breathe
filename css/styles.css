@@ -1,6 +1,5 @@
 :root{
     --main-bg-color: #fcf7ec;
-
 }
 
 body {
@@ -22,16 +21,3 @@ a {
     color: #369;
 }
 
-.hide-timer-button {
-    width: 100vw;
-    color: var(--main-bg-color);
-    height: 10%;
-    position:absolute;
-    bottom:0;
-    border:none;
-}
-
-.hide-timer-button:hover{
-    color: var(--main-bg-color);
-
-}

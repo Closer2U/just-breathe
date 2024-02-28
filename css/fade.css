@@ -1,0 +1,67 @@
+
+
+/* Trick to make timer fade */
+.hide-timer-button {
+    width: 100vw;
+    background-color: var(--main-bg-color);
+    height: 10%;
+    position:absolute;
+    bottom:0;
+    border:none;
+    z-index: 99;
+    opacity:0;
+    pointer-events: auto;
+}
+
+.hide-timer-button_None {
+    width: 100vw;
+    background-color: var(--main-bg-color);
+    height: 10%;
+    position:absolute;
+    bottom:0;
+    border:none;
+    z-index: 99;
+    opacity:1;
+    pointer-events: auto;
+}
+
+.hide-timer-button_Fade {
+    width: 100vw;
+    background-color: var(--main-bg-color);
+    height: 10%;
+    position:absolute;
+    bottom:0;
+    border:none;
+    z-index: 99;
+    opacity:0;
+    pointer-events: auto;
+    animation: fade 3s forwards;
+    -webkit-animation: fade 3s forwards;
+}
+
+.hide-timer-button_Reappear {
+    width: 100vw;
+    background-color: var(--main-bg-color);
+    height: 10%;
+    position:absolute;
+    bottom:0;
+    border:none;
+    z-index: 99;
+    opacity:0;
+    pointer-events: auto;
+    animation: reappear 6s forwards;
+    -webkit-animation: reappear 6s forwards;
+}
+
+@keyframes fade {
+      0% {opacity: 0;}
+     50% {opacity: 0.5;}
+    100% {opacity: 1;}
+  }
+
+@keyframes reappear {
+     0% {opacity: 1;}
+    40% {opacity: 0;}
+    60% {opacity: 0;}
+   100% {opacity: 1;}
+}
