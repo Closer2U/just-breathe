@@ -47,7 +47,7 @@ function fadeTimer()  {
     }
 
 /**
-display.onclick = function showTimer ()  {
+window.onclick = function showTimer ()  {
         console.log("Display2: ")
         //TODO fix damit man den Timer wieder einblenden kann
         var showEffect = setInterval(function () {
