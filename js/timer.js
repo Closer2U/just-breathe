@@ -1,7 +1,6 @@
 function startTimer(duration, display) {
     startMinute();
     var timer = duration, minutes, seconds;
-    
     var interval = setInterval(function () {
         minutes = parseInt(timer / 60, 10)
         seconds = parseInt(timer % 60, 10);
@@ -24,6 +23,7 @@ function startTimer(duration, display) {
 fade();
 }
 
+
 //window.onload = function () {
     // document.getElementById("Pulse").onclick = function () {
  function startMinute() {
@@ -31,36 +31,3 @@ fade();
         display = document.getElementById('Timer');
     startTimer(oneMinute, display);
 };
-
-
-
-/* *function fadeTimer()  {
-        console.log("Display: ")
-        var fadeEffect = setInterval(function () {
-            if (!display.style.opacity) {
-                display.style.opacity = 1;
-            }
-            if (display.style.opacity > 0) {
-                display.style.opacity -= 0.05;
-            } else {
-                clearInterval(fadeEffect);
-            }
-        }, 100);
-    }
-**/
-/**
-window.onclick = function showTimer ()  {
-        console.log("Display2: ")
-        //TODO fix damit man den Timer wieder einblenden kann
-        var showEffect = setInterval(function () {
-            if (!display.style.opacity) {
-                display.style.opacity = 1;
-            }
-            if (display.style.opacity < 1) {
-                display.style.opacity += 0.5;
-            } else {
-                clearInterval(showEffect);
-            }
-        }, 100);
-    }
-**/
