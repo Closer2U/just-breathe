@@ -31,7 +31,6 @@ window.onclick = function () {
 };
 
 
-var display = document.getElementById('Timer');
 
 /* *function fadeTimer()  {
         console.log("Display: ")
