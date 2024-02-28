@@ -1,5 +1,5 @@
 body, html {
-    height: 97%;
+    height: 100%;
     background: #fcf9f9;
     overflow: none;
     display: flex;
@@ -12,8 +12,8 @@ body, html {
     display:flex;
     justify-content: center;
     align-items: center;
-    max-width:99vw ; 
-    height: 99vh;
+    width:100vw ; 
+    height: 100vh;
     /* margin: 0 auto 0; */
     -webkit-perspective: 1000;
     -webkit-backface-visibility: hidden;
