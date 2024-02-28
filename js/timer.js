@@ -27,7 +27,7 @@ fade();
 //window.onload = function () {
      document.getElementById("Pulse").onclick = function () {
  //function startMinute() {
-    var oneMinute = 5,
+    var oneMinute = 60,
         display = document.getElementById('Timer');
     startTimer(oneMinute, display);
 };
