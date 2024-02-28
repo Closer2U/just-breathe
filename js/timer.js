@@ -1,4 +1,5 @@
 function startTimer(duration, display) {
+    startMinute();
     var timer = duration, minutes, seconds;
     
     var interval = setInterval(function () {
@@ -25,7 +26,7 @@ fade();
 
 //window.onload = function () {
     // document.getElementById("Pulse").onclick = function () {
-    function startMinute() {
+ function startMinute() {
     var oneMinute = 60,
         display = document.getElementById('Timer');
     startTimer(oneMinute, display);
