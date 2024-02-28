@@ -3,9 +3,8 @@ A Progressive Web App that helps me focus by guiding a one minute meditation via
 
 > [!IMPORTANT]
 > This project is very much still a 🚧 Work in Progess 🚧!
-> Works only in **Firefox** as of now. 
->> Chrome based browsers do not stop timer after one iteration and
->> Fade does not seem to work there reliably
+> There seem to be problems on some Android Phones in Chrome Browser
+> Namely the timer not fading.
 
 <br>
 

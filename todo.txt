@@ -15,7 +15,9 @@ pulse.css
 - [x] reappear on touch
     - [x] //idea via CSS animation lösen --> button über timer platzieren (display:none; visibility:hidden) und dann via js opacity animieren
 
-- [ ] //BUG in Chrome stoppt timer nicht
+- [x] //BUG in Chrome stoppt timer nicht
+
+- [ ] //FIXME On mobile the pulsing point overflows the horizontal display constraints
 - [ ] service worker fixen
 
 - [ ] zum Installieren aufrufen
