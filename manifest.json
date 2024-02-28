@@ -1,6 +1,6 @@
 {
     "name": "Just Breathe",
-    "short_name": "PWA",
+    "short_name": "JustBreathe",
     "start_url": "/just-breathe/",
     "display": "standalone",
     "background_color": "#fff",
