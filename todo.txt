@@ -18,5 +18,5 @@ pulse.css
 
 - [ ] zum Installieren aufrufen
 
-- [ ] README.md anpassen 
-- [ ] Ordnerstruktur fixen, Dateien löschen 
+- [x] README.md anpassen 
+- [x] Ordnerstruktur fixen, Dateien löschen 

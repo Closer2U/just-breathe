@@ -1,7 +1,6 @@
 body, html {
     height: 100%;
-    background: #fcf9f9;
-    overflow: none;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +16,6 @@ body, html {
     /* margin: 0 auto 0; */
     -webkit-perspective: 1000;
     -webkit-backface-visibility: hidden;
-    background: #fcf9f9;
   }
   
   .pulse-button {
