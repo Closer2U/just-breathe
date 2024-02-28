@@ -10,8 +10,9 @@ pulse.css
 - [x] create timer
 - [ ] timer stops --> restart
     - [ ] "START" reappears
-- [x] timer hide after 2s , 
+- [x] timer hide after 2s 
 - [ ] reappear on touch
+    - [ ] //idea via CSS animation lösen --> button über timer platzieren (display:none; visibility:hidden) und dann via js opacity animieren
 
 - [ ] service worker fixen
 

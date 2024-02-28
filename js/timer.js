@@ -33,7 +33,7 @@ window.onclick = function () {
 
 var display = document.getElementById('Timer');
 
-function fadeTimer()  {
+/* *function fadeTimer()  {
         console.log("Display: ")
         var fadeEffect = setInterval(function () {
             if (!display.style.opacity) {
@@ -46,7 +46,7 @@ function fadeTimer()  {
             }
         }, 100);
     }
-
+**/
 /**
 window.onclick = function showTimer ()  {
         console.log("Display2: ")
