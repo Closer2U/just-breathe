@@ -17,7 +17,9 @@ pulse.css
 
 - [x] //BUG in Chrome stoppt timer nicht
 
-- [ ] //FIXME On mobile the pulsing point overflows the horizontal display constraints
+- [ ] //FIXME timer startet jedes mal, wenn auf pulse btn klickt --> springt 
+  - Button erst nach timer Ablauf wieder interagierbar machen 
+
 - [ ] service worker fixen
 
 - [ ] zum Installieren aufrufen
